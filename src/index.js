@@ -1,7 +1,7 @@
-const addBtn = document.getElementById('#new-toy-btn')
-const toyForm = document.querySelector('.container')
 let addToy = false
-let divCollect = document.querySelector('#toy-collection')
+let addBtn = document.getElementById('#new-toy-btn')
+let toyForm = document.querySelector('.container')
+let divCollect = document..getElementById('#toy-collection')
 
 
 function getToys() {
@@ -79,7 +79,6 @@ function renderToys(toy) {
 
 
 addBtn.addEventListener('click', () => {
-  // hide & seek with the form
   addToy = !addToy
   if (addToy) {
     toyForm.style.display = 'block'
